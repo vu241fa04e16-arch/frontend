@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&display=swap" rel="stylesheet">
+</head>
+    <style>
+       * {
+    box-sizing: border-box;
+        }
+
+        html, body {
+    margin: 0;
+    padding: 0;
+    width: 1400px;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+            
+        h3{
+        font-family:  "Permanent Marker", cursive;
+        font-weight: 500;
+        text-align: center;
+        /* transform: translate(10px); */
+        }
+        .heading {
+    width: 1400px;
+}
+        
+        nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    margin-left: 300px;
+}
+        nav a{
+            text-decoration-line: none;
+            color:black;
+            font-size: x-small;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text{
+            display: flex;
+            flex-direction: row;
+            width:400px;
+           
+            height:50px;
+            margin-top: 30px;
+             
+            
+
+        }
+        .tex{
+            display: flex;
+            flex-direction: row;
+            width:400px;
+            height:50px;
+            
+        }
+        .image,.prath,.prat,.eye,.comm{
+            display:flex;
+            flex-direction:row;
+            
+
+        }
+        .re{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-evenly   ;
+            width:700px;
+            margin-left: -0px;
+            margin-top:-0.1px 
+        }
+        .num{
+            font-family: "Cormorant Garamond", serif;
+            color: rgba(116, 109, 109, 0.504);
+            font-size: 50px;
+            margin-top: -23px;
+            margin-left:15px ;
+        }
+        .dis{
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            box-shadow: 5px 5px 10px gray;
+           
+            height: 400px;
+        }
+        .te{
+            display: flex;
+            flex-direction: row;
+            width:400px;
+            height:50px;
+          
+        }
+        .t{
+            display: flex;
+            flex-direction: row;
+            width:400px;
+            height:50px;
+        }
+        .fle{
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-around;
+            margin-left: 380px;
+            margin-top: -190px;
+            width:150px; 
+       }
+        .m{
+            display: flex;
+            flex-direction: row;
+            width:400px;
+            height:50px;
+           
+        }
+        .text:hover{
+            color:rgb(238, 158, 9);
+            background-color:rgba(230, 227, 221, 0.489);
+           
+            
+        }
+        .tex:hover{
+            color:rgb(238, 158, 9);
+            background-color:rgba(230, 227, 221, 0.489);
+             
+        }
+        .x:hover{
+            color:rgb(238, 158, 9);
+        }
+        .has:hover{
+            color:rgb(238, 158, 9);
+            
+        }
+        .te:hover{
+            color:rgb(238, 158, 9);
+            background-color:rgba(230, 227, 221, 0.489);
+           
+            
+        }
+        .t:hover{
+            color:rgb(238, 158, 9);
+            background-color:rgba(230, 227, 221, 0.489);
+           
+            
+        }
+        .m:hover{
+            color:rgb(238, 158, 9);
+            background-color:rgba(230, 227, 221, 0.489);
+           
+            
+        }
+        .para{
+            color:white;
+            
+            margin-left: 70px;
+            margin-top: -50px;
+            font-size:xx-large
+        }
+        .prath img,.prat img{
+            margin-left: 50px;
+        }
+        .read{
+            margin-left: 270px;
+            text-transform: uppercase;
+             
+        }
+        .box{
+            margin-left: 200px;
+        }
+        .read:hover{
+            color:rgb(238, 158, 9); 
+            
+        }
+        .has:hover{
+            color:rgb(238, 158, 9);
+        }
+        .me{
+            margin-left: 850px;
+            margin-top:-1300px ;
+        }
+        
+        .about{
+            margin-left: 40px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: medium;
+            text-decoration-line:underline;
+            
+           
+        }
+        .sus{
+            text-transform: uppercase;
+            text-align: center;
+           transform: translate(-210px);
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        .ss{
+            text-transform: uppercase;
+            text-align: center;
+           transform: translate(240px);
+            font-size: 15px;
+             font-weight: bolder;
+        }
+        .icon{
+            margin-left: 870px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 200px;
+            margin-top: 40px;
+            transform: translate(130px);
+        }
+        .ti{
+            display: flex;
+            flex-direction: row;
+            margin-left: 820px;
+        }
+        .foodb{
+            transform: translate(100px);
+        }
+        .photo{
+            transform: translate(150px);
+        }
+        .subs{
+            transform: translate(130px);
+        }
+        .boxs{
+             transform: translate(100px);
+        }
+        .ppp{
+            transform: translate(950px,-100px);
+        }
+        .tiii{
+            transform: translateY(-50px);
+        }
+        .three{
+            transform: translateY(-100px);
+        }
+        .for{
+            transform: translateY(-140px);
+        }
+        .fiv{
+            transform: translateY(-180px);
+            
+        }
+        .down{
+            margin-top:-450px;
+            margin-left:-100px ;
+        
+        }
+        .opp{
+             margin-top:70px;
+            margin-left:-100px ;
+            margin-bottom: 10px;
+        }
+        .cook{
+            position:relative;
+            margin-top: -570px;
+            margin-left: 1000px;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bold;
+            color: aliceblue;
+        }
+       .line{
+         position:relative;
+            margin-top: -10px;
+            margin-left:1020px;
+            text-transform: uppercase;
+            font-size: small;
+            font-weight: bold;
+            color: aliceblue;
+       }
+       .news{
+        position:relative;
+            margin-top: 150px;
+            margin-left:1020px;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bold;
+            color: rgb(98, 96, 96);
+       }
+        .texts{
+            position:relative;
+            margin-top: -5px;
+            margin-left:900px;
+            text-transform: uppercase;
+            font-size:medium;
+            line-height: 1.5;
+            color: rgb(154, 151, 151);
+            width: 400px;
+        }
+        .boxes{
+            width:250px;
+            height:50px;
+            background-color:rgba(153, 153, 154, 0.812);
+            margin-top: -5px;
+            margin-left:900px;
+        }
+        .mail{
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 14px;
+            font-weight: bold;
+        }
+        .sit{
+            width: 50px;
+            height:50px;
+            background-color: rgb(230, 138, 76);
+            margin-top: -50px;
+            margin-left:1150px;
+            
+        }
+        .imgge{
+            margin-left: 16px;
+            margin-top: 17px;
+        }
+        .sit:hover{
+            background-color: black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h3 class="heading">FOODIE</h3>
+    <nav>
+        <a href="">HOME</a>
+        <a href="">PAGES</a>
+        <a href="">CATEGORIES</a>
+        <a href="">TRAVEL</a>
+        <a href="">ABOUT</a>
+        <a href="">CONTACT</a>
+    </nav>
+    <div class="box">
+    <div class="image">
+    <img src="https://i.pinimg.com/736x/46/c1/05/46c10594329c1c871051bbec9430db11.jpg" width="600px" style="margin-top: 40px; margin-left:50px;height: 400px;box-shadow: 5px 5px 10px gray;">
+    <div class="dis">
+    <div class="text"><br>
+    <p class="num" style="margin-top: -14px;">01</p>
+    <p style="margin-left: 40px;font-size:large;margin-top:5px;width:300px;">A Closer Look At Our Front Porch Items From Lowe’s</p>
+    </div>
+    <br>
+    <div class="tex">
+    <p class="num" style="margin-top: -14px;">02</p>
+    <p style="margin-left: 40px;font-size:large;width:300px;margin-top:5px;">12 Beautiful Vegan Panna Cottas</p>
+    
+    </div><br>
+    <div class="te">
+    <p class="num" style="margin-top: -14px;">03</p>
+    <p style="margin-left: 40px;font-size:large;width:300px;margin-top:5px;">Quick Vegan Enchiladas with Sweet Potato Sauce</p>
+    
+    </div><br>
+    <div class="t">
+    <p class="num" style="margin-top: -14px;">04</p>
+    <p style="margin-left: 40px;font-size:large;width:300px;margin-top:5px;">Instant Pot Mushroom Stroganoff with Vodka</p>
+    
+    </div><br>
+    <div class="m">
+    <p class="num" style="margin-top: -14px;">05</p>
+    <p style="margin-left: 40px;font-size:large;width:300px;margin-top:5px;">The Most Popular Recipe Last Month</p>
+    
+    </div>
+    </div>
+    </div>
+    <p class="para">The Most Popular Recipe Last Month</p><br></div>
+    <div class="foodb">
+    <div class="prath">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.ogtQDJFrfoaGcB0Nq5TBqwHaE8?r=0&pid=Api&P=0&h=180" width="300px" height="300px" style="box-shadow: 5px 5px 10px gray;">
+        <p class="has" style="width: 400px;margin-left: 40px;font-size: 30px;margin-top:-0.1px ;">Vegetarian Spring Pho with Sweet Potato Noodles and Heirloom Beans</p><br>
+        
+    </div>
+    <div class="fle">
+            <p>by sarah</p>
+            <div class="eye">
+                <img src="eye.png" alt="" width="17px" height="17px" style="margin-top: 15px;">
+            <p>192</p>
+
+            </div> 
+            <div class="comm">
+                <img src="comment.png" alt="" width="17px" height="19px" style="margin-top: 15px;">
+            <p>8</p>
+            </div>
+        </div>
+    <p style="margin-left:390px;width:300px;margin-top:-0.1px ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+    <div class="re">
+    <p class="read">continue reading</p> 
+    <img src="next.png" width="20px" height="30px" style="margin-left: -100px;margin-top: 10px;" ></div>
+    <br><br><br> 
+    <div class="prat">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.wYXR2b4xp4X8qKbiH8ePBAHaHa?r=0&pid=Api&P=0&h=180" width="300px" height="300px" style="box-shadow: 5px 5px 10px gray;">
+        <p class="has"style="width: 400px;margin-left: 40px;font-size: 30px;margin-top:-0.1px ;">Grain-Free Sweet & Savory Activated Walnut Granola Plant-Based Recipe Developers</p><br>
+        
+    </div>
+    <div class="fle">
+            <p>by sarah</p>
+            <div class="eye">
+                <img src="eye.png" alt="" width="17px" height="17px" style="margin-top: 15px;">
+            <p>192</p>
+
+            </div> 
+              <div class="comm">
+                <img src="comment.png" alt="" width="17px" height="19px" style="margin-top: 15px;">
+            <p>8</p>
+            </div>
+        </div>
+    <p style="margin-left:390px;width:300px;margin-top: -0.1px;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+    <div class="re">
+    <p class="read">continue reading</p> 
+    <img src="next.png" width="20px" height="30px" style="margin-left: -100px;margin-top: 10px;" ></div>
+<br><br><br>
+    <div class="prat">
+        <img src="https://www.tasteatlas.com/images/dishes/458fe24044a2416eadb350839003bb68.jpg?mw=1300" width="300px" height="300px" style="box-shadow: 5px 5px 10px gray;">
+        <p class="has" style="width: 400px;margin-left: 40px;font-size: 30px;margin-top:-0.1px ;">Yokohama-style ramen or iekei ramen is a Japanese type of ramen</p><br>
+        
+    </div>
+    <div class="fle">
+            <p>by sarah</p>
+            <div class="eye">
+                <img src="eye.png" alt="" width="17px" height="17px" style="margin-top: 15px;">
+            <p>192</p>
+
+            </div> 
+              <div class="comm">
+                <img src="comment.png" alt="" width="17px" height="19px" style="margin-top: 15px;">
+            <p>8</p>
+            </div>
+        </div>
+    <p style="margin-left:390px;width:300px;margin-top: -0.1px;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+    <div class="re">
+    <p class="read">continue reading</p> 
+    <img src="next.png" width="20px" height="30px" style="margin-left: -100px;margin-top: 10px;" ></div>
+<br><br><br>
+<div class="prat">
+        <img src="https://cookingitalians.com/wp-content/uploads/2024/11/Florentine-steak.jpg" width="300px" height="300px" style="box-shadow: 5px 5px 10px gray;">
+        <p class="has" style="width: 400px;margin-left: 40px;font-size: 30px;margin-top:-0.1px ; ">Bistecca alla Fiorentina: The Ultimate Italian Steak.Origins in Florence, Tuscany</p><br>
+        
+    </div>
+    <div class="fle">
+            <p>by sarah</p>
+            <div class="eye">
+                <img src="eye.png" alt="" width="17px" height="17px" style="margin-top: 15px;">
+            <p>192</p>
+
+            </div> 
+              <div class="comm">
+                <img src="comment.png" alt="" width="17px" height="19px" style="margin-top: 15px;">
+            <p>8</p>
+            </div>
+        </div>
+    <p style="margin-left:390px;width:300px;margin-top: -0.1px;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+    <div class="re">
+    <p class="read">continue reading</p> 
+    <img src="next.png" width="20px" height="30px" style="margin-left: -100px;margin-top: 10px;" ></div>
+    <div class="me">
+        <div class="photo">
+      <p class="about">ABOUT ME</p>
+        <img src="https://tse4.mm.bing.net/th/id/OIP.IcdEdZXuDJxwzQjIlpvwjQHaHa?r=0&pid=Api&P=0&h=180" alt="" style="border-radius: 50%;"></div>
+        <div class="subs">
+        <p style="font-family:'Brush Script MT';font-size: 30px;text-align: center;transform: translate(-210px);">Sarah Jennifer</p>
+        <p style="font-family:'Arial';font-size: 10px;text-align: center;margin-left: 10px;width: 200px;margin-top: -20px;">Lorem ipsum dolor sit amet consectetur accusantium sint veniam. Quisquam, molestias cumque veritatis autem delectus iure sapiente.</p><br>
+        <p class="sus">subscribe&follow</p>   </div>
+    </div>
+    <div class="icon">
+        <img src="google.png" alt="">
+        <img src="twitter.png" alt="">
+        <img src="social.png" alt="">
+        <img src="linkedin.png" alt="">
+        <img src="instagram.png" alt="">
+    </div><br><br>
+    <div class="boxs">
+    <p class="ss">latest posts</p> <br><br>
+    <div class="ti">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.QAd0X5Wk7n0APMN3oRt4GwHaHa?r=0&pid=Api&P=0&h=180" alt="" width="120px" height="110px" style="box-shadow: 0 2px 10px black;"></div>   
+        <div class="ppp">
+        <p class="x" style="font-weight: bold;">Weeknight Ponzu Pasta</p>
+        <p class="z" >by Erin Alderson</p></div>
+
+        <div class="tiii">
+        <div class="ti">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.v13NlR-ruU9IMALKuVmu3QAAAA?r=0&pid=Api&P=0&h=180" alt=""width="120px" height="110px" style="box-shadow: 0 2px 10px black"></div>   
+        <div class="ppp">
+        <p class="x" style="font-weight: bold;"> The Most Popular Recipe Last Month</p>
+        <p class="z" >by Erin Alderson</p></div></div>
+        <div class="three">
+        <div class="ti">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.jWIf0jqJoaMOQAysfhEt0QHaIP?r=0&pid=Api&P=0&h=180" alt="" width="120px" height="110px" style="box-shadow: 0 2px 10px black"></div>   
+        <div class="ppp">
+        <p class="x" style="font-weight: bold;">A Really Good Chana Masala</p>
+        <p class="z" >by Erin Alderson</p></div></div>
+        <div class="for">
+        <div class="ti">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.bM7ZzuYfLUdnW9S9dHYS7gHaEK?r=0&pid=Api&P=0&h=180" alt="" width="120px" height="110px" style="box-shadow: 0 2px 10px black"></div>   
+        <div class="ppp">
+        <p class="x" style="font-weight: bold;">Spicy Instant Pot Taco Soup
+</p>
+        <p class="z" >by Erin Alderson</p></div></div>
+        <div class="fiv">
+        <div class="ti">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.GlAv2ixzLj-F-aaPL7F87wHaE8?r=0&pid=Api&P=0&h=180" alt="" width="120px" height="110px" style="box-shadow: 0 2px 10px black"></div>   
+        <div class="ppp">
+        <p class="x" style="font-weight: bold;">Lime Leaf Miso Soup</p>
+        <p class="z" >by Erin Alderson</p></div></div>
+        <div style="position: relative; width: 320px; height: 250px; transform: translate(820px,-220px);box-shadow: 0 2px 10px black;">
+
+    <img src="https://tse3.mm.bing.net/th/id/OIP.phApy6ByQkjP8fC1zc_xVwHaE8?r=0&pid=Api&P=0&h=180"
+         width="320px"
+         height="250px">
+
+    <div style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+    "></div>
+
+</div>
+        </div>
+<div class="down">
+     
+    <div class="foodb">
+    <div class="prath">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.EqEaAeQs4W1e_vA5XuK1TQHaE8?r=0&pid=Api&P=0&h=180" width="300px" height="300px" style="box-shadow: 5px 5px 10px gray;">
+        <p class="has" style="width: 400px;margin-left: 40px;font-size: 30px;margin-top:-0.1px ;">Green Skillet Pizza with Asparagus and Pesto</p><br>
+        
+    </div>
+    <div class="fle">
+            <p>by sarah</p>
+            <div class="eye">
+                <img src="eye.png" alt="" width="17px" height="17px" style="margin-top: 15px;">
+            <p>192</p>
+
+            </div> 
+            <div class="comm">
+                <img src="comment.png" alt="" width="17px" height="19px" style="margin-top: 15px;">
+            <p>8</p>
+            </div>
+        </div>
+    <p style="margin-left:390px;width:300px;margin-top:-0.1px ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+    <div class="re">
+    <p class="read">continue reading</p> 
+    <img src="next.png" width="20px" height="30px" style="margin-left: -100px;margin-top: 10px;" ></div>
+</div>
+</div>
+<div class="opp">
+     
+    <div class="foodb">
+    <div class="prath">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.5X8U1teRwbMNXjPpYVkuCAHaE8?r=0&pid=Api&P=0&h=180" width="300px" height="300px" style="box-shadow: 5px 5px 10px gray;">
+        <p class="has" style="width: 400px;margin-left: 40px;font-size: 30px;margin-top:-0.1px ;"> Self-Care Interview Series: Gabrielle Russomagno</p><br>
+        
+    </div>
+    <div class="fle">
+            <p>by sarah</p>
+            <div class="eye">
+                <img src="eye.png" alt="" width="17px" height="17px" style="margin-top: 15px;">
+            <p>192</p>
+
+            </div> 
+            <div class="comm">
+                <img src="comment.png" alt="" width="17px" height="19px" style="margin-top: 15px;">
+            <p>8</p>
+            </div>
+        </div>
+    <p style="margin-left:390px;width:300px;margin-top:-0.1px ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+    <div class="re">
+    <p class="read">continue reading</p> 
+    <img src="next.png" width="20px" height="30px" style="margin-left: -100px;margin-top: 10px;" ></div>
+</div>
+</div><br><br>
+<p class="cook ">cooking book</p>
+<p class="line">BOOKING NOW</p>
+<p class="news">newsletter</p><br>
+<p class="texts">Subscribe our newsletter gor get notification about new updates, information discount, etc.</p>
+<br>
+ <div class="boxes">
+  <p class="mail">your mail</p>
+ </div>
+ <div class="sit">
+  <img  class="imgge" src="paper-plane.png" alt="">
+ </div>
+</body>
+</html>
